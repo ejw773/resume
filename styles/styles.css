@@ -1,6 +1,9 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
+    color: sienna;
+}
+.themeColor {
     color: sienna;
 }
 p {
@@ -11,8 +14,15 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-p.center {
+.centerText {
     text-align: center;
+}
+.indentText {
+    text-indent: 2em;   
+}
+p.jobPoints{
+    text-indent: 2em;
+    line-height: 1.2em;
 }
 .wordspace {
     word-spacing: 1em;
@@ -20,6 +30,6 @@ p.center {
 .jobTitle {
     font-weight: bold;
 }
-img {
+img.rounded {
     border-radius: 50%;
 }
