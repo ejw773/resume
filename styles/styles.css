@@ -3,11 +3,11 @@ h1, h2, h3 {
     text-align: center;
     color: sienna;
 }
-.themeColor {
-    color: sienna;
-}
 p {
     font-family: 'Merriweather', serif;
+}
+.themeColor {
+    color: sienna;
 }
 .center {
     display: block;
@@ -32,4 +32,13 @@ p.jobPoints{
 }
 img.rounded {
     border-radius: 50%;
+}
+.inlineList {
+    display: inline-block;
+    width: 100px;
+}
+.content {
+    width: 800px;
+    margin: auto;
+    border: 10px solid black;
 }
